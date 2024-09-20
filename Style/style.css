@@ -1,0 +1,251 @@
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 120px 0px 0;
+}
+body {background: black;}
+canvas {display:block;}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.divF{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+.divT{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.divMap{
+ display: flex;
+  margin: auto;
+  margin-bottom: 10px ;
+}
+.divPort{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+}
+.Information{
+    font-family: 'Orbitron', sans-serif;
+    color: #009966;
+    text-align: center;
+    padding: 15px;
+}
+footer {
+    margin: 0;
+    position: relative;
+    background: rgb(20, 20, 20);
+    color: rgb(232, 224, 228);
+  }
+  footer h4 {
+    margin-bottom: 0;
+  }
+  footer h5 {
+    line-height: 1.5;
+  }
+  footer .copyright {
+    background: rgb(45, 45, 45);
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  footer .copyright a{
+    color:white;
+  }
+  footer .copyright span {
+    border-bottom: solid 1px;
+  }
+
+  #about {
+    background-color: white;
+    text-align: center;
+    color: white;
+    margin: 0px 0 20px 0;
+    padding: 50px;
+}
+
+img {
+  
+  display:block;
+  border-radius: 150%;
+  margin:auto;
+  width: 25rem;
+
+
+
+}
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  list-style:none
+}
+.navbar a{
+  color: #009966;
+  font-family:'Orbitron', sans-serif ;
+}
+.navitem{
+  font-size: x-large;
+  font-size: 60px;
+  text-decoration: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  
+}
+p, td {
+  color: white;
+  padding: 5px;
+}
+
+table, td {
+  border: 1px solid #e0e0e0;
+}
+
+#slideshow {
+	margin: 0 auto;
+	padding-top: 50px;
+	height: 600px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.slideshow-title {
+	font-family: 'Allerta Stencil';
+	font-size: 62px;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 25%;
+	letter-spacing: 3px;
+	font-weight: 300;
+}
+
+.sub-heading {
+	padding-top: 50px;
+	font-size: 18px;
+} .sub-heading-two {
+	font-size: 15px;
+} .sub-heading-three {
+	font-size: 13px;
+} .sub-heading-four {
+	font-size: 11px;
+} .sub-heading-five {
+	font-size: 9px;
+} .sub-heading-six {
+	font-size: 7px;
+} .sub-heading-seven {
+	font-size: 5px;
+} .sub-heading-eight {
+	font-size: 3px;
+} .sub-heading-nine {
+	font-size: 1px;
+}
+
+.entire-content {
+	margin: auto;
+	width: 190px;
+	perspective: 1000px;
+	position: relative;
+	padding-top: 80px;
+}
+
+.content-carrousel {
+	width: 100%;
+	position: absolute;
+	float: right;
+	animation: rotar 15s infinite linear;
+	transform-style: preserve-3d;
+}
+
+.content-carrousel:hover {
+	animation-play-state: paused;
+	cursor: pointer;
+}
+
+.content-carrousel figure {
+	width: 100%;
+	height: 120px;
+	border: 1px solid #3b444b;
+	overflow: hidden;
+	position: absolute;
+}
+
+.content-carrousel figure:nth-child(1) {
+	transform: rotateY(0deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(2) {
+	transform: rotateY(40deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(3) {
+	transform: rotateY(80deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(4) {
+	transform: rotateY(120deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(5) {
+	transform: rotateY(160deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(6) {
+	transform: rotateY(200deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(7) {
+	transform: rotateY(240deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(8) {
+	transform: rotateY(280deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(9) {
+	transform: rotateY(320deg) translateZ(300px); 
+} .content-carrousel figure:nth-child(10) {
+	transform: rotateY(360deg) translateZ(300px); 
+} 
+
+.shadow {
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px #000;
+    border-radius: 1px;
+}
+
+.content-carrousel img {
+	image-rendering: auto;
+	transition: all 300ms;
+	width: 100%;
+	height: 100%;
+}
+
+.content-carrousel img:hover {
+	transform: scale(1.2);
+	transition: all 300ms;
+}
+
+@keyframes rotar {
+	from {
+		transform: rotateY(0deg);
+	} to {
+		transform: rotateY(360deg);
+	}
+}
+
